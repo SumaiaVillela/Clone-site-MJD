@@ -226,11 +226,11 @@ blockquote {
     width: 100%;
 }
 
-.organiza-section:nth-child(2n+1) .organiza-content {
+.organiza-section:nth-child(odd) .organiza-content {
     margin-left: auto;
 }
 
-.organiza-section:nth-child(2n) .organiza-content {
+.organiza-section:nth-child(even) .organiza-content {
     margin-right: auto;
 }
 
